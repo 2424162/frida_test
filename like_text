@@ -1,0 +1,5 @@
+
+public static n<LikePhotoResponse> a(@a QPhoto qPhoto, boolean z, String str, String str2, String str3) {
+    return KwaiApp.getApiService().likePhoto(qPhoto.getUserId(), qPhoto.getPhotoId(), z ? "0" : "1", str, a(str2), a(qPhoto.getExpTag()), qPhoto.getServerExpTag(), b(), str3).map(new e());
+}
+<instance: io.reactivex.n, $className: io.reactivex.internal.operators.observable.aw>

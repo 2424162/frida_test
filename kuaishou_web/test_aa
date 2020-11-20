@@ -1,0 +1,34 @@
+Request{method=POST, url=https://api.mock-host.com/rest/n/clock/r, tag=Request{method=POST, url=https://api.mock-host.com/rest/n/clock/r, tag=null}}
+{mod=HUAWEI(ALP-AL00)
+, lon=102.565076
+, country_code=CN
+, kpn=KUAISHOU    //"KUAISHOU"
+, oc=GENERIC      //"GENERIC"
+, egid=DFPF2B1AAA5E85F8E1F80673F0A356742E6F82B527685BC744E9D7A8D77C266B      ""
+, hotfix_ver=
+, sh=1600
+, appver=6.9.2.11245
+, max_memory=128
+, isp=CMCC
+, browseType=1
+, kpf=ANDROID_PHONE  //"ANDROID_PHONE"
+, did=ANDROID_28c2ddc8c66b3984
+, net=WIFI
+, app=0
+, ud=1856840699     //
+, c=GENERIC, sys=ANDROID_5.1.1, sw=900, ftt=
+, language=zh-cn
+, iuid=
+, lat=32.999024
+, did_gt=1585559946489
+, ver=6.9}
+
+{kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSoAGOuMlAuU3wVA759dqddMzE0x5or6QfgoOD4cEBxb3YOzB5bkO-Dr6ZLp-1K6V0REJkjcP8pbnPKDuJ4lon2m_xeZ7Zd7H-YcFke5w8J8XGiV-3uNC-0uqKHF4Q79MDREQQYPjIKpngweLEC0P-aJx-ml-tmuKf1kKVRgJea7e6k5skgCNmnRTpV7_6BP5kcL2i0i1VRYNmn3X0z73KDNJlGhJvFHrrKslACKKghHE7NlCD-YgiIEsiUoc_mvTeV_f4f3qiRCyhBxNrDxLwhB_CcbSjtAKEKAUwAQ
+, cur=3, tab=3
+, token=88a905bd01ee4516930ad844e0ee46ad-1856840699
+, visible=true
+, client_key=3c2cd3f3     //'3c2cd3f3'
+, logv=GBTDSMZYMM2GMMBZHE2WCOBTMM4WEZRTGFTDAYZWGQZTEMRVHA4Q====
+, os=android}
+android.util.Pair@42a52cf6
+{'type': 'send', 'payload': 'Hook成功!'}

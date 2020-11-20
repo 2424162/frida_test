@@ -1,0 +1,41 @@
+Request{method=POST, url=https://api.mock-host.com/rest/n/comment/list/firstPage, tag=Request{method=POST, url=https://api.mock-host.com/rest/n/comment/list/firstPage, tag=null}}
+____
+{mod=HUAWEI(ALP-AL00), lon=102.565076, country_code=CN, kpn=KUAISHOU, oc=GENERIC, egid=DFPF2B1AAA5E85F8E1F80673F0A356742E6F82B527685BC744E9D7A8D77C266B, hotfix_ver=, sh=1600, appver=6.9.2.11245, max_memory=128, isp=CMCC, browseType=1, kpf=ANDROID_PHONE, did=ANDROID_28c2ddc8c66b3984, net=WIFI, app=0, ud=1856840699, c=GENERIC, sys=ANDROID_5.1.1, sw=900, ftt=, language=zh-cn, iuid=, lat=32.999024, did_gt=1585559946489, ver=6.9}
+____
+{photoPageType=3, client_key=3c2cd3f3, photoId=5197716943626525859, kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSoAEx1z_CQ3gjlDxnoHdFMKAq1o45sMzw6mLUBCJFXOpkPJtMhySx5QvkSYsdKhTsu0aVNuW-LK0fp5sm_E5en7_fKuZOrLI3dK5alshWd6BkgSGGx4AwtqTWQRlJvr5E-FfB9DYgOvdACy7UxAWAOk4o0ek0TqZ29VeV_W2fvny1dc-_uvYroGDYs3SEFROngGj48bpXSSf9NcAIHdjWfcJFGhIiwigt6z1E-KgTFRJfYpn015ciIJl5etPT9GiVPxwmryeewFd4sHZRTFamP3xnxgAW7qmOKAUwAQ, token=88a905bd01ee4516930ad844e0ee46ad-1856840699, os=android}
+
+
+    var exp=null;
+    var Long = Java.use("java.lang.Long");
+    var str="ks://photo/1390807479/5214323959547783532/3/1_a/2000042764427349121_p0#addcomment";
+    var str2="5214323959547783532";
+    var str3="1390807479";
+    var str4="wqwc11casaszzz8888";
+    var str5=exp;
+    var str6=exp;
+    var str7=false;
+    var str8=Long.parseLong("0");
+    var str9=exp;
+    var  comm = cc.a(str,str2,str3,str4,str5,str6,str7,str8,str9);
+    console.log(comm);
+    c.a.overload('java.lang.String', 'java.lang.String', 'java.lang.String', 'java.lang.String', 'java.lang.String', 'java.lang.String', 'boolean','long',"java.lang.String").implementation = function (str,str2,str3,str4,str5,str6,str7,str8,str9) {
+        console.log(str,"类型:",typeof(str));
+        console.log(str2,"类型:",typeof(str2));
+        console.log(str3,"类型:",typeof(str3));
+        console.log(str4,"类型:",typeof(str4));
+        console.log(str5,"类型:",typeof(str5));
+        console.log(str6,"类型:",typeof(str6));
+        console.log(str7,"类型:",typeof(str7));
+        console.log(str8,"类型:",typeof(str8));
+        console.log(str9,"类型:",typeof(str9));
+        var str="ks://photo/1390807479/5214323959547783532/3/1_a/2000042764427349121_p0#addcomment";
+    var str2="5214323959547783532";
+    var str3="1390807479";
+    var str4="wqwc11casaszzz777777";
+    var str5=exp;
+    var str6=exp;
+    var str7=false;
+    var str8=Long.parseLong("0");
+    var str9=exp;
+          var  comm =  c.a(str,str2,str3,str4,str5,str6,str7,str8,str9);
+        return comm;

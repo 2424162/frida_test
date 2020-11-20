@@ -1,0 +1,26 @@
+app=0
+appver=6.6.6.10150
+c=XIAOMI
+client_key=3c2cd3f3
+country_code=cnd
+id=ANDROID_c2a5f2b10fd596e8
+did_gt=1589959111824
+ftt=hotfix_ver=isp=CMCCiuid=kpf=ANDROID_PHONEkpn=KUAISHOU
+kuaishou.api_st=Cg9rdWFpc2hvdS5hcGkuc3QSoAFdLS3BaJl01UehEqG_PWzySj1kjzlvBlF6cnbH0vzUGXpv-lhW4jSjXmHp20ZNig8mo7RXMgjExxHxhNhco0Qq_6KXLB4Zfh2g3T3lUgg6iZicwW_4Rn29NIN_1mIpGxTRO8iWURS9zlJMG9hQnuM8pMEICO2ePoe_g1RJpuisf6Y1-p3-YKTl0w1p-Zig7IJTBoWr7nrdy4Bgu7ANOTtyGhL-n59CWGdM3bmoLtqIcC_9Za0iIMRtg9K3fFaIngbLXiNm7juwZkPyDItdGVMrdJHU1JhXKAUwAQ
+language=zh-cnlat=30.066054llsid=2000065712113841250lon=103.828106max_memory=192mod=HUAWEI(VOG-AL00)net=WIFIoc=XIAOMI
+os=android
+photos=[{"photo_id":"5206724146096990849","reco_reason":"h466","user_id":"1158232110"},
+        {"photo_id":"5234027219131641677","reco_reason":"h315","user_id":"828123886"},
+        {"photo_id":"5199687271093161661","reco_reason":"h1836","user_id":"100928655"},
+        {"photo_id":"5227834768933080885","reco_reason":"h466","user_id":"576117313"},
+        {"photo_id":"5219671994087828694","reco_reason":"h129","user_id":"1461261653"},
+        {"photo_id":"5217420197036844221","reco_reason":"h88","user_id":"81000087"},
+        {"photo_id":"5211790698396551215","reco_reason":"h52","user_id":"1951844971"},
+        {"photo_id":"5190680074436555450","reco_reason":"h267","user_id":"57849014"},
+        {"photo_id":"5227834769481960345","reco_reason":"h367","user_id":"610840493"},
+        {"photo_id":"5201939071415479622","reco_reason":"h466","user_id":"429601096"},{"photo_id":"5214323973368166722","reco_reason":"h661","user_id":"719218271"}]
+sys=ANDROID_7.1.2
+token=254845689bf94dfe92d2c81586d55d82-1942009504
+type=7
+ud=1942009504
+ver=6.6

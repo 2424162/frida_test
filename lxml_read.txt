@@ -1,0 +1,1976 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="t2" value="1584757695141" />
+    <string name="UTDID2">XnV7v/ogP2QDAPhkH4Cv6yjC</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="status">{&quot;status&quot;:0,&quot;message&quot;:&quot;success&quot;,&quot;ak&quot;:&quot;UEnH61ElxrwvKKBOA6oTgio7&quot;,&quot;token&quot;:&quot;5e40WlLs2AYgti3C1g2sNsCCoyhCzVWgMSfCEyxzy5KaXsNO6Off9DmqZKWVXPZ0CnXgBQFeiHUm+a68qSWawK9cbo4oH\/L\/GKaO6PgogB245tEdWiajkbJ5NnejjjNSWB+WNu8ebPSxEROdTxDPnPeBPIwxENdMMkeSeT1gGXOZo2uY&quot;,&quot;uid&quot;:&quot;806671447&quot;,&quot;sk&quot;:&quot;llIos4sfFmrmz55wUZetggPLCkWGsCXD&quot;,&quot;user_permission&quot;:0,&quot;ak_permission&quot;:0,&quot;current&quot;:1586316348701}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="status">{&quot;status&quot;:0,&quot;message&quot;:&quot;success&quot;,&quot;ak&quot;:&quot;UEnH61ElxrwvKKBOA6oTgio7&quot;,&quot;token&quot;:&quot;26a0tB4JOhUPVYpVY+DgInHjYo7v+ClCN+JnURbIKbDWos3oBD9FVruzH0EQFslXq62OSogFcQUfZi5mVCa2SP\/MTEl70L3I8dt1D5tpIi+khkTNIZ7qnH5mBYpW8+ZD0HNHCND4RRUsy3JmwQfsppKM8bi+5ouot2eImIpwgY0igHpN&quot;,&quot;uid&quot;:&quot;806671447&quot;,&quot;sk&quot;:&quot;llIos4sfFmrmz55wUZetggPLCkWGsCXD&quot;,&quot;user_permission&quot;:0,&quot;ak_permission&quot;:0,&quot;current&quot;:1585793997289}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="KEY_CURRENT_HOST">api.kuaishouzt.com</string>
+    <string name="KEY_CURRENT_SDK_INFO_MAP">{&quot;azeroth&quot;:&quot;0.2.5&quot;}</string>
+    <string name="KEY_SDK_CONFIG_MAP">{&quot;obiwan&quot;:&quot;{\&quot;config\&quot;:{\&quot;retryCount\&quot;:3,\&quot;retryDelay\&quot;:10,\&quot;timeout\&quot;:500,\&quot;checkInterval\&quot;:30,\&quot;max_upload_file_size\&quot;:50}}&quot;}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="cc_req_interval">10800000</string>
+    <string name="app_version">7.1.4.3</string>
+    <string name="collect_bles">false</string>
+    <string name="cc_version">2</string>
+    <string name="last_pull_time">1586178943922</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="updateTime" value="1585559958184" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="trackingConfig">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+
+&lt;!--媒体平台相关配置--&gt;
+&lt;config xsi:noNamespaceSchemaLocation=&quot;SDKSchema.xsd&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; &gt;
+
+    &lt;!--缓存队列 配置--&gt;
+    &lt;offlineCache&gt;
+      &lt;!-- 缓存队列长度 Android SDK 中不生效，iOS SDK 中生效--&gt;
+        &lt;length&gt;0&lt;/length&gt;
+        &lt;!--缓存队列中发送重试时间间隔 单位 秒--&gt;
+        &lt;queueExpirationSecs&gt;60&lt;/queueExpirationSecs&gt;
+        &lt;!--发送超时时间 单位 秒,Android SDK 不生效 --&gt;
+        &lt;timeout&gt;60&lt;/timeout&gt;
+    &lt;/offlineCache&gt;
+
+    &lt;!--viewability监测参数配置--&gt;
+    &lt;viewability&gt;
+        &lt;!-- viewability监测的轮询时间间隔 单位 毫秒）--&gt;
+        &lt;intervalTime&gt;100&lt;/intervalTime&gt;
+        &lt;!-- 满足viewability可见区域占总区域的百分比 --&gt;
+        &lt;viewabilityFrame&gt;50&lt;/viewabilityFrame&gt;
+        &lt;!-- 满足图片viewability总时长 单位 秒 --&gt;
+        &lt;viewabilityTime&gt;1&lt;/viewabilityTime&gt;
+        &lt;!-- 满足视频viewability总时长 单位 秒 --&gt;
+        &lt;viewabilityVideoTime&gt;2&lt;/viewabilityVideoTime&gt;
+        &lt;!-- 当前广告位viewability最大监测时长 单位 秒 --&gt;
+        &lt;maxExpirationSecs&gt;120&lt;/maxExpirationSecs&gt;
+        &lt;!-- 当前广告位上报的最大viewability时间片数量 --&gt;
+        &lt;maxAmount&gt;20&lt;/maxAmount&gt;
+    &lt;/viewability&gt;
+
+    &lt;!--以下为各家第三方的具体配置，注释说明参考 AdMaster 的内容--&gt;
+    &lt;companies&gt;
+        &lt;company&gt;
+            &lt;!-- 第三方公司名称--&gt;
+            &lt;name&gt;admaster&lt;/name&gt;
+
+            &lt;!-- viewability Js方式监测 Js在线更新地址 e.g. http://xxxx.com.cn/docs/mma-sdk.js --&gt;
+            &lt;jsurl&gt;&lt;/jsurl&gt;
+            &lt;!-- viewability Js方式监测 离线js文件名称 e.g. mma_sdk.js--&gt;
+            &lt;jsname&gt;&lt;/jsname&gt;
+
+            &lt;domain&gt;
+                &lt;!-- 第三方监测公司监测代码的HOST  --&gt;
+                &lt;url&gt;admaster.com.cn&lt;/url&gt;
+            &lt;/domain&gt;
+
+            &lt;!-- 签名串信息--&gt;
+            &lt;signature&gt;
+                &lt;!-- 各家第三方配置一个值即可,目前暂未使用--&gt;
+                &lt;publicKey&gt;Z83476Hel&lt;/publicKey&gt;
+                &lt;!-- 签名串信息回传的字段--&gt;
+                &lt;paramKey&gt;0b&lt;/paramKey&gt;
+            &lt;/signature&gt;
+
+
+            &lt;switch&gt;
+                &lt;!-- 是否发送地理位置信息 --&gt;
+                &lt;isTrackLocation&gt;true&lt;/isTrackLocation&gt;
+                &lt;!-- 离线数据缓存时间，单位秒 --&gt;
+                &lt;offlineCacheExpiration&gt;259200&lt;/offlineCacheExpiration&gt;
+                &lt;!-- 可视化监测采集策略 0 = TrackPositionChanged 位置改变时记录,1 = TrackVisibleChanged 可视改变时记录 --&gt;
+                &lt;viewabilityTrackPolicy&gt;0&lt;/viewabilityTrackPolicy&gt;
+
+                &lt;!--属性加密配置--&gt;
+                &lt;encrypt&gt;
+                    &lt;!-- MAC 值需要做 md5 --&gt;
+                    &lt;MAC&gt;md5&lt;/MAC&gt;
+                    &lt;!-- IDA 值需要做 md5,目前不生效--&gt;
+                    &lt;IDA&gt;md5&lt;/IDA&gt;
+                    &lt;!-- IMEI 值需要做 md5 --&gt;
+                    &lt;IMEI&gt;md5&lt;/IMEI&gt;
+                    &lt;!-- ANDROIDID 值需要做 md5 --&gt;
+                    &lt;ANDROIDID&gt;md5&lt;/ANDROIDID&gt;
+                &lt;/encrypt&gt;
+
+                &lt;!--APPLIST上报配置--&gt;
+                &lt;!--&lt;applist&gt;--&gt;
+                &lt;!--&amp;lt;!&amp;ndash; applist上报地址 e.g. https:xxxx.com.cn/track/applist &amp;ndash;&amp;gt;--&gt;
+                &lt;!--&lt;uploadUrl&gt;https://p.attri.mobi/a&lt;/uploadUrl&gt;--&gt;
+                &lt;!--&amp;lt;!&amp;ndash; applist上报时间间隔，单位为小时,配置为0时，不上报 &amp;ndash;&amp;gt;--&gt;
+                &lt;!--&lt;uploadTime&gt;24&lt;/uploadTime&gt;--&gt;
+                &lt;!--&amp;lt;!&amp;ndash; applist上报是否使用gzip,缺省为true &amp;ndash;&amp;gt;--&gt;
+                &lt;!--&lt;usegzip&gt;true&lt;/usegzip&gt;--&gt;
+                &lt;!--&lt;/applist&gt;--&gt;
+            &lt;/switch&gt;
+
+            &lt;!--上报字段配置--&gt;
+            &lt;config&gt;
+                &lt;!--必选和常用可选参数(key需确定)--&gt;
+                &lt;arguments&gt;
+                    &lt;!--必选参数--&gt;
+                    &lt;!-- 设备操作系统 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OS&lt;/key&gt;
+                        &lt;value&gt;0a&lt;/value&gt;
+                        &lt;!-- 获取到的信息是否需要 URLEncode处理 --&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;!-- 获取到的信息是否需要上报 --&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 监测代码请求发生时的时间戳 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;TS&lt;/key&gt;
+                        &lt;value&gt;t&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!--用户终端的 eth0 接口的 MAC 地址--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;MAC&lt;/key&gt;
+                        &lt;value&gt;n&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- iOS IDFA(适用于iOS6及以上) --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;IDFA&lt;/key&gt;
+                        &lt;value&gt;z&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- iOS IDFA md5 加密值 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;IDFAMD5&lt;/key&gt;
+                        &lt;value&gt;0j&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- Android IMEI 值 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;IMEI&lt;/key&gt;
+                        &lt;value&gt;0c&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- Android AndroidID 值 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ANDROIDID&lt;/key&gt;
+                        &lt;value&gt;0d&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 客户端触发监测时的网络状态 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFI&lt;/key&gt;
+                        &lt;value&gt;w&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 无线路由 SSID --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFISSID&lt;/key&gt;
+                        &lt;value&gt;1p&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 无线路由 BSSID --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFIBSSID&lt;/key&gt;
+                        &lt;value&gt;1q&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- APP的BundleId(PackageName) --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AKEY&lt;/key&gt;
+                        &lt;value&gt;x&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- APP的名称 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ANAME&lt;/key&gt;
+                        &lt;value&gt;y&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;!--可选参数--&gt;
+                    &lt;!-- 设备的屏幕分辨率 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SCWH&lt;/key&gt;
+                        &lt;value&gt;0f&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- iOS OPENUDID 值 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OPENUDID&lt;/key&gt;
+                        &lt;value&gt;o&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 设备的机型 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;TERM&lt;/key&gt;
+                        &lt;value&gt;r&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 设备的系统版本号 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OSVS&lt;/key&gt;
+                        &lt;value&gt;q&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 设备的地理位置信息 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;LBS&lt;/key&gt;
+                        &lt;value&gt;l&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- SDK版本号 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SDKVS&lt;/key&gt;
+                        &lt;value&gt;0l&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 监测代码需要重定向的 URL --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;REDIRECTURL&lt;/key&gt;
+                        &lt;value&gt;u&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/arguments&gt;
+
+                &lt;!--事件监测配置(暂时没有使用)--&gt;
+                &lt;events&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;m1&lt;/name&gt;--&gt;
+                        &lt;key&gt;start&lt;/key&gt;
+                        &lt;value&gt;m201&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;e1&lt;/name&gt;--&gt;
+                        &lt;key&gt;end&lt;/key&gt;
+                        &lt;value&gt;m203&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                &lt;/events&gt;
+
+
+                &lt;!-- 监测代码中广告位标识符 --&gt;
+                &lt;Adplacement&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adplacement&lt;/key&gt;
+                        &lt;value&gt;b&lt;/value&gt;
+                        &lt;urlEncode&gt;false&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;false&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/Adplacement&gt;
+
+                &lt;!--viewability监测字段配置--&gt;
+                &lt;viewabilityarguments&gt;
+
+                    &lt;!-- 可视化监测识别ID --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ImpressionID&lt;/key&gt;
+                        &lt;value&gt;2g&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;!-- 采集属性 start --&gt;
+                    &lt;!-- 可视化监测中采集的时间片信息 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityEvents&lt;/key&gt;
+                        &lt;value&gt;2j&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视化采集中每个时间片的时间戳，单位 毫秒 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityTime&lt;/key&gt;
+                        &lt;value&gt;2t&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材尺寸 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityFrame&lt;/key&gt;
+                        &lt;value&gt;2k&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材左上角坐标 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityPoint&lt;/key&gt;
+                        &lt;value&gt;2d&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材透明度 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityAlpha&lt;/key&gt;
+                        &lt;value&gt;2l&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材是否显示 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShown&lt;/key&gt;
+                        &lt;value&gt;2m&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材被覆盖率 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityCoverRate&lt;/key&gt;
+                        &lt;value&gt;2n&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材可视尺寸 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShowFrame&lt;/key&gt;
+                        &lt;value&gt;2o&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 屏幕是否点亮 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityLight&lt;/key&gt;
+                        &lt;value&gt;2r&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- APP是否在前台运行 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityForground&lt;/key&gt;
+                        &lt;value&gt;2s&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材可见性 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adviewability&lt;/key&gt;
+                        &lt;value&gt;2f&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 广告素材可测量性 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdMeasurability&lt;/key&gt;
+                        &lt;value&gt;2h&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 采集属性 end --&gt;
+
+                    &lt;!-- 配置属性 start --&gt;
+                    &lt;!-- 满足可视条件时的覆盖率 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigArea&lt;/key&gt;
+                        &lt;value&gt;2v&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 满足可视条件时的时长 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigThreshold&lt;/key&gt;
+                        &lt;value&gt;2u&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 视频广告素材的总播放时长 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoDuration&lt;/key&gt;
+                        &lt;value&gt;2w&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 视频广告素材播放进度监测事件 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgress&lt;/key&gt;
+                        &lt;value&gt;2a&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 视频广告素材的播放类型 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoPlayType&lt;/key&gt;
+                        &lt;value&gt;1g&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 视频广告素材播放进度配置依次为:25%50%75%100% --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgressPoint&lt;/key&gt;
+                        &lt;value&gt;2x&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 配置属性 end --&gt;
+
+                    &lt;!-- 控制属性 start --&gt;
+                    &lt;!-- 可视轨迹数据是否上报 --&gt;
+                    &lt;!--
+                     &lt;argument&gt;
+                     &lt;key&gt;AdviewabilityRecord&lt;/key&gt;
+                     &lt;value&gt;va&lt;/value&gt;
+                     &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                     &lt;isRequired&gt;true&lt;/isRequired&gt;
+                     &lt;/argument&gt;
+                     --&gt;
+                    &lt;!-- 控制属性 end --&gt;
+
+                &lt;/viewabilityarguments&gt;
+            &lt;/config&gt;
+
+            &lt;!-- 监测代码中各个字段之间的分隔符 --&gt;
+            &lt;separator&gt;,&lt;/separator&gt;
+            &lt;!-- 监测代码中 key 和 value 之间的连接符 --&gt;
+            &lt;equalizer&gt;&lt;/equalizer&gt;
+            &lt;!-- 监测代码请求发生的时间戳是否使用秒为单位 (false=毫秒) --&gt;
+            &lt;timeStampUseSecond&gt;true&lt;/timeStampUseSecond&gt;
+        &lt;/company&gt;
+
+        &lt;company&gt;
+            &lt;name&gt;miaozhen&lt;/name&gt;
+            &lt;!-- Viewability Js方式监测 Js在线更新地址 e.g. http://xxxx.com.cn/docs/mma-sdk.js --&gt;
+            &lt;jsurl&gt;&lt;/jsurl&gt;
+            &lt;!-- Viewability Js方式监测 离线js文件名称--&gt;
+            &lt;jsname&gt;&lt;/jsname&gt;
+            &lt;domain&gt;
+                &lt;!-- 此处需修改为第三方检测公司监测代码的 host 部分 --&gt;
+                &lt;url&gt;.miaozhen.com&lt;/url&gt;
+            &lt;/domain&gt;
+            &lt;signature&gt;
+                &lt;publicKey&gt;DbXiUlEVN&lt;/publicKey&gt;
+                &lt;paramKey&gt;mf&lt;/paramKey&gt;
+            &lt;/signature&gt;
+            &lt;switch&gt;
+                &lt;isTrackLocation&gt;true&lt;/isTrackLocation&gt;
+                &lt;!-- 失效时间，单位秒 --&gt;
+                &lt;offlineCacheExpiration&gt;604800&lt;/offlineCacheExpiration&gt;
+                &lt;!-- 可视化监测采集策略 0 = TrackPositionChanged 位置改变时记录,1 = TrackVisibleChanged 可视改变时记录--&gt;
+                &lt;viewabilityTrackPolicy&gt;1&lt;/viewabilityTrackPolicy&gt;
+                &lt;encrypt&gt;
+                    &lt;MAC&gt;md5&lt;/MAC&gt;
+                    &lt;IDA&gt;raw&lt;/IDA&gt;
+                    &lt;IMEI&gt;md5&lt;/IMEI&gt;
+                    &lt;ANDROIDID&gt;md5&lt;/ANDROIDID&gt;
+                &lt;/encrypt&gt;
+                &lt;!--&lt;applist&gt;--&gt;
+                &lt;!--&amp;lt;!&amp;ndash; applist上报地址 e.g. https:xxxx.com.cn/track/applist &amp;ndash;&amp;gt;--&gt;
+                &lt;!--&lt;uploadUrl&gt;/apl/&lt;/uploadUrl&gt;--&gt;
+                &lt;!--&amp;lt;!&amp;ndash; applist上报时间间隔，单位为小时,配置为0时，不上报&amp;ndash;&amp;gt;--&gt;
+                &lt;!--&lt;uploadTime&gt;24&lt;/uploadTime&gt;--&gt;
+                &lt;!--&lt;usegzip&gt;false&lt;/usegzip&gt;--&gt;
+                &lt;!--&lt;/applist&gt;--&gt;
+            &lt;/switch&gt;
+            &lt;config&gt;
+                &lt;arguments&gt;
+                    &lt;!--argument的必选和常用可选参数 key需确定--&gt;
+                    &lt;!--必选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OS&lt;/key&gt;
+                        &lt;value&gt;mo&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;TS&lt;/key&gt;
+                        &lt;value&gt;mt&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;MAC&lt;/key&gt;
+                        &lt;value&gt;m6a&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;IDFA&lt;/key&gt;
+                        &lt;value&gt;m5&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;IMEI&lt;/key&gt;
+                        &lt;value&gt;m2&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;RAWIMEI&lt;/key&gt;
+                        &lt;value&gt;m3&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ANDROIDID&lt;/key&gt;
+                        &lt;value&gt;m1a&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFI&lt;/key&gt;
+                        &lt;value&gt;mw&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AKEY&lt;/key&gt;
+                        &lt;value&gt;mp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ANAME&lt;/key&gt;
+                        &lt;value&gt;mn&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!--可选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SCWH&lt;/key&gt;
+                        &lt;value&gt;mh&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- WiFi Name--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFISSID&lt;/key&gt;
+                        &lt;value&gt;mj&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- WiFi MAC--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFIBSSID&lt;/key&gt;
+                        &lt;value&gt;ml&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OPENUDID&lt;/key&gt;
+                        &lt;value&gt;m0&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;TERM&lt;/key&gt;
+                        &lt;value&gt;md&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OSVS&lt;/key&gt;
+                        &lt;value&gt;me&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;LBS&lt;/key&gt;
+                        &lt;value&gt;mm&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SDKVS&lt;/key&gt;
+                        &lt;value&gt;mv&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;REDIRECTURL&lt;/key&gt;
+                        &lt;value&gt;o&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/arguments&gt;
+                &lt;events&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;m1&lt;/name&gt;--&gt;
+                        &lt;key&gt;start&lt;/key&gt;
+                        &lt;value&gt;mb=start&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;e1&lt;/name&gt;--&gt;
+                        &lt;key&gt;end&lt;/key&gt;
+                        &lt;value&gt;mb=end&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                &lt;/events&gt;
+                &lt;Adplacement&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adplacement&lt;/key&gt;
+                        &lt;value&gt;p&lt;/value&gt;
+                        &lt;urlEncode&gt;false&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;false&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/Adplacement&gt;
+                &lt;viewabilityarguments&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ImpressionID&lt;/key&gt;
+                        &lt;value&gt;vf&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityRecord&lt;/key&gt;
+                        &lt;value&gt;va&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityEvents&lt;/key&gt;
+                        &lt;value&gt;vd&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityTime&lt;/key&gt;
+                        &lt;value&gt;1&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityFrame&lt;/key&gt;
+                        &lt;value&gt;2&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityPoint&lt;/key&gt;
+                        &lt;value&gt;3&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityAlpha&lt;/key&gt;
+                        &lt;value&gt;4&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShown&lt;/key&gt;
+                        &lt;value&gt;5&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityCoverRate&lt;/key&gt;
+                        &lt;value&gt;6&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShowFrame&lt;/key&gt;
+                        &lt;value&gt;7&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityForground&lt;/key&gt;
+                        &lt;value&gt;8&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityResult&lt;/key&gt;
+                        &lt;value&gt;vx&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigArea&lt;/key&gt;
+                        &lt;value&gt;vh&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigThreshold&lt;/key&gt;
+                        &lt;value&gt;vi&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoDuration&lt;/key&gt;
+                        &lt;value&gt;vb&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgress&lt;/key&gt;
+                        &lt;value&gt;vc&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoPlayType&lt;/key&gt;
+                        &lt;value&gt;vg&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgressPoint&lt;/key&gt;
+                        &lt;value&gt;vj&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/viewabilityarguments&gt;
+            &lt;/config&gt;
+            &lt;separator&gt;&amp;amp;&lt;/separator&gt;
+            &lt;!--&lt;separator&gt;&amp;amp;&lt;/separator&gt;--&gt;
+            &lt;equalizer&gt;=&lt;/equalizer&gt;
+            &lt;!--如果设置true   timeStamper使用秒--&gt;
+            &lt;timeStampUseSecond&gt;true&lt;/timeStampUseSecond&gt;
+        &lt;/company&gt;
+
+        &lt;company&gt;
+            &lt;name&gt;girdsum&lt;/name&gt;
+            &lt;jsurl&gt;&lt;/jsurl&gt;
+            &lt;jsname&gt;&lt;/jsname&gt;
+            &lt;domain&gt;
+                &lt;!-- 此处是监测数据提交地址的域名部分 --&gt;
+                &lt;url&gt;gridsumdissector.com&lt;/url&gt;
+                &lt;!-- &lt;url&gt;10.0.2.2&lt;/url&gt; --&gt;
+            &lt;/domain&gt;
+            &lt;!--签名功能包所用的参数，如未设置，不使用签名功能--&gt;
+            &lt;signature&gt;
+                &lt;publicKey&gt;fm6dOWUqZ&lt;/publicKey&gt;
+                &lt;paramKey&gt;sign&lt;/paramKey&gt;
+            &lt;/signature&gt;
+            &lt;switch&gt;
+                &lt;isTrackLocation&gt;true&lt;/isTrackLocation&gt;
+                &lt;!-- 失效时间，单位秒 --&gt;
+                &lt;offlineCacheExpiration&gt;604800&lt;/offlineCacheExpiration&gt;
+                &lt;!-- 可视化监测采集策略 0 = TrackPositionChanged 位置改变时记录,1 = TrackVisibleChanged 可视改变时记录--&gt;
+                &lt;viewabilityTrackPolicy&gt;1&lt;/viewabilityTrackPolicy&gt;
+                &lt;encrypt&gt;
+                    &lt;MAC&gt;raw&lt;/MAC&gt;
+                    &lt;IDA&gt;md5&lt;/IDA&gt;
+                    &lt;IMEI&gt;md5&lt;/IMEI&gt;
+                    &lt;ANDROIDID&gt;raw&lt;/ANDROIDID&gt;
+                &lt;/encrypt&gt;
+            &lt;/switch&gt;
+            &lt;config&gt;
+                &lt;arguments&gt;
+                    &lt;!--argument的必选和常用可选参数 key需确定--&gt;
+                    &lt;!--必选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OS&lt;/key&gt;
+                        &lt;value&gt;os&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;TS&lt;/key&gt;
+                        &lt;value&gt;ts&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;MAC&lt;/key&gt;
+                        &lt;value&gt;m&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;IDFA&lt;/key&gt;
+                        &lt;value&gt;if&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;IMEI&lt;/key&gt;
+                        &lt;value&gt;im&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;ANDROIDID&lt;/key&gt;
+                        &lt;value&gt;aid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFI&lt;/key&gt;
+                        &lt;value&gt;wifi&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;AKEY&lt;/key&gt;
+                        &lt;value&gt;ak&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;ANAME&lt;/key&gt;
+                        &lt;value&gt;an&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;!--可选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SCWH&lt;/key&gt;
+                        &lt;value&gt;scwh&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;OPENUDID&lt;/key&gt;
+                        &lt;value&gt;oid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;ODIN&lt;/key&gt;
+                        &lt;value&gt;odin&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;TERM&lt;/key&gt;
+                        &lt;value&gt;term&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;OSVS&lt;/key&gt;
+                        &lt;value&gt;osvs&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;LBS&lt;/key&gt;
+                        &lt;value&gt;lbs&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;MUID&lt;/key&gt;
+                        &lt;value&gt;mid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;MUDS&lt;/key&gt;
+                        &lt;value&gt;muds&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;REDIRECTURL&lt;/key&gt;
+                        &lt;value&gt;u&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SDKVS&lt;/key&gt;
+                        &lt;value&gt;sdkvs&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/arguments&gt;
+                &lt;events&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;m1&lt;/name&gt;--&gt;
+                        &lt;key&gt;start&lt;/key&gt;
+                        &lt;value&gt;m201&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;e1&lt;/name&gt;--&gt;
+                        &lt;key&gt;end&lt;/key&gt;
+                        &lt;value&gt;m203&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                &lt;/events&gt;
+
+                &lt;!-- 广告位标识符 --&gt;
+                &lt;Adplacement&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adplacement&lt;/key&gt;
+                        &lt;value&gt;ap&lt;/value&gt;
+                        &lt;urlEncode&gt;false&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;false&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/Adplacement&gt;
+
+                &lt;viewabilityarguments&gt;
+                    &lt;!-- 可视监测识别ID --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ImpressionID&lt;/key&gt;
+                        &lt;value&gt;viid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 采集属性 start --&gt;
+                    &lt;!-- 可视视图采集轨迹数据 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityEvents&lt;/key&gt;
+                        &lt;value&gt;ve&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视图采集点时间戳 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityTime&lt;/key&gt;
+                        &lt;value&gt;vts&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视图尺寸 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityFrame&lt;/key&gt;
+                        &lt;value&gt;vf&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 视图可视区域坐标 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityPoint&lt;/key&gt;
+                        &lt;value&gt;vp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视图透明度 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityAlpha&lt;/key&gt;
+                        &lt;value&gt;va&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视图是否显示 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShown&lt;/key&gt;
+                        &lt;value&gt;vs&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视图被覆盖率 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityCoverRate&lt;/key&gt;
+                        &lt;value&gt;vc&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 视图可视尺寸 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShowFrame&lt;/key&gt;
+                        &lt;value&gt;vsf&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 屏幕是否点亮 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityLight&lt;/key&gt;
+                        &lt;value&gt;vl&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- APP是否在前台运行 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityForground&lt;/key&gt;
+                        &lt;value&gt;vfg&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视图可见性 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adviewability&lt;/key&gt;
+                        &lt;value&gt;vab&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视图可测量性 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdMeasurability&lt;/key&gt;
+                        &lt;value&gt;vm&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 采集属性 end --&gt;
+
+                    &lt;!-- 配置属性 start --&gt;
+                    &lt;!-- 满足可视覆盖率 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigArea&lt;/key&gt;
+                        &lt;value&gt;vca&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 满足可视时长 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigThreshold&lt;/key&gt;
+                        &lt;value&gt;vct&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视频播放时长 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoDuration&lt;/key&gt;
+                        &lt;value&gt;vcvd&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视视频播放进度监测事件类型 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgress&lt;/key&gt;
+                        &lt;value&gt;vcvp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 可视监测传入的视频播放类型 --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoPlayType&lt;/key&gt;
+                        &lt;value&gt;vcpt&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- 视频可视化播放进度配置依次为:25%50%75%100% --&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgressPoint&lt;/key&gt;
+                        &lt;value&gt;vcpp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/viewabilityarguments&gt;
+            &lt;/config&gt;
+            &lt;separator&gt;&amp;amp;&lt;/separator&gt;
+            &lt;!--&lt;separator&gt;&amp;amp;&lt;/separator&gt;--&gt;
+            &lt;equalizer&gt;=&lt;/equalizer&gt;
+            &lt;!--如果设置true   timeStamper使用秒--&gt;
+            &lt;timeStampUseSecond&gt;true&lt;/timeStampUseSecond&gt;
+        &lt;/company&gt;
+
+
+        &lt;company&gt;
+            &lt;name&gt;adbug&lt;/name&gt;
+            &lt;!-- JS监测在线更新地址 --&gt;
+            &lt;jsurl&gt;https://cdn2.hegek7.com/mma/atvam.js&lt;/jsurl&gt;
+            &lt;jsname&gt;atvam.js&lt;/jsname&gt;
+            &lt;domain&gt;
+                &lt;!-- 此处需修改为第三方检测公司监测代码的 host 部分 --&gt;
+                &lt;url&gt;cdn2.hegek7.com&lt;/url&gt;
+            &lt;/domain&gt;
+            &lt;signature&gt;
+                &lt;publicKey&gt;zfAfwZm7B&lt;/publicKey&gt;
+                &lt;paramKey&gt;sign&lt;/paramKey&gt;
+            &lt;/signature&gt;
+            &lt;switch&gt;
+                &lt;isTrackLocation&gt;false&lt;/isTrackLocation&gt;
+                &lt;!-- 失效时间，单位秒 --&gt;
+                &lt;offlineCacheExpiration&gt;259200&lt;/offlineCacheExpiration&gt;
+                &lt;encrypt&gt;
+                    &lt;MAC&gt;md5&lt;/MAC&gt;
+                    &lt;IDA&gt;md5&lt;/IDA&gt;
+                    &lt;IMEI&gt;md5&lt;/IMEI&gt;
+                    &lt;ANDROIDID&gt;raw&lt;/ANDROIDID&gt;
+                &lt;/encrypt&gt;
+            &lt;/switch&gt;
+            &lt;config&gt;
+                &lt;arguments&gt;
+                    &lt;!--argument的必选和常用可选参数 key需确定--&gt;
+                    &lt;!--必选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OS&lt;/key&gt;
+                        &lt;value&gt;0a&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;TS&lt;/key&gt;
+                        &lt;value&gt;t&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;MAC&lt;/key&gt;
+                        &lt;value&gt;n&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;IDFA&lt;/key&gt;
+                        &lt;value&gt;z&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;IDFAMD5&lt;/key&gt;
+                        &lt;value&gt;0j&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ANDROIDID&lt;/key&gt;
+                        &lt;value&gt;0d&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFI&lt;/key&gt;
+                        &lt;value&gt;w&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;AKEY&lt;/key&gt;
+                        &lt;value&gt;x&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;ANAME&lt;/key&gt;
+                        &lt;value&gt;y&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!--可选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SCWH&lt;/key&gt;
+                        &lt;value&gt;0f&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;OPENUDID&lt;/key&gt;
+                        &lt;value&gt;o&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;TERM&lt;/key&gt;
+                        &lt;value&gt;r&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;OSVS&lt;/key&gt;
+                        &lt;value&gt;q&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;LBS&lt;/key&gt;
+                        &lt;value&gt;l&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SDKVS&lt;/key&gt;
+                        &lt;value&gt;0l&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;REDIRECTURL&lt;/key&gt;
+                        &lt;value&gt;u&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/arguments&gt;
+                &lt;events&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;m1&lt;/name&gt;--&gt;
+                        &lt;key&gt;start&lt;/key&gt;
+                        &lt;value&gt;m201&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;e1&lt;/name&gt;--&gt;
+                        &lt;key&gt;end&lt;/key&gt;
+                        &lt;value&gt;m203&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                &lt;/events&gt;
+                &lt;Adplacement&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adplacement&lt;/key&gt;
+                        &lt;value&gt;b&lt;/value&gt;
+                        &lt;urlEncode&gt;false&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;false&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                &lt;/Adplacement&gt;
+
+                &lt;viewabilityarguments&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ImpressionID&lt;/key&gt;
+                        &lt;value&gt;2g&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityEvents&lt;/key&gt;
+                        &lt;value&gt;2j&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityTime&lt;/key&gt;
+                        &lt;value&gt;2t&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityFrame&lt;/key&gt;
+                        &lt;value&gt;2k&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityPoint&lt;/key&gt;
+                        &lt;value&gt;2d&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityAlpha&lt;/key&gt;
+                        &lt;value&gt;2l&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityHide&lt;/key&gt;
+                        &lt;value&gt;2m&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityCoverRate&lt;/key&gt;
+                        &lt;value&gt;2n&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShowFrame&lt;/key&gt;
+                        &lt;value&gt;2o&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityLight&lt;/key&gt;
+                        &lt;value&gt;2r&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityForground&lt;/key&gt;
+                        &lt;value&gt;2s&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adviewability&lt;/key&gt;
+                        &lt;value&gt;2f&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdMeasurability&lt;/key&gt;
+                        &lt;value&gt;2h&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+
+                &lt;/viewabilityarguments&gt;
+            &lt;/config&gt;
+            &lt;!-- &lt;separator&gt;,&lt;/separator&gt; --&gt;
+            &lt;separator&gt;&amp;amp;&lt;/separator&gt;
+            &lt;equalizer&gt;&lt;/equalizer&gt;
+            &lt;!--如果设置true   timeStamper使用秒--&gt;
+            &lt;timeStampUseSecond&gt;true&lt;/timeStampUseSecond&gt;
+        &lt;/company&gt;
+
+
+        &lt;company&gt;
+            &lt;name&gt;rtbasia&lt;/name&gt;
+            &lt;!-- Viewability Js方式监测 Js在线更新地址 e.g. http://xxxx.com.cn/docs/mma-sdk.js --&gt;
+            &lt;jsurl&gt;&lt;/jsurl&gt;
+            &lt;!-- Viewability Js方式监测 离线js文件名称--&gt;
+            &lt;jsname&gt;&lt;/jsname&gt;
+            &lt;domain&gt;
+                &lt;!-- 此处需修改为第三方检测公司监测代码的 host 部分 --&gt;
+                &lt;url&gt;.rtbasia.com&lt;/url&gt;
+            &lt;/domain&gt;
+            &lt;signature&gt;
+                &lt;publicKey&gt;H9sYdua8k&lt;/publicKey&gt;
+                &lt;paramKey&gt;rbk&lt;/paramKey&gt;
+            &lt;/signature&gt;
+            &lt;switch&gt;
+                &lt;isTrackLocation&gt;true&lt;/isTrackLocation&gt;
+                &lt;!-- 失效时间，单位秒 --&gt;
+                &lt;offlineCacheExpiration&gt;604800&lt;/offlineCacheExpiration&gt;
+                &lt;!-- 可视化监测采集策略 0 = TrackPositionChanged 位置改变时记录,1 = TrackVisibleChanged 可视改变时记录--&gt;
+                &lt;viewabilityTrackPolicy&gt;1&lt;/viewabilityTrackPolicy&gt;
+                &lt;encrypt&gt;
+                    &lt;MAC&gt;raw&lt;/MAC&gt;
+                    &lt;IDA&gt;raw&lt;/IDA&gt;
+                    &lt;IMEI&gt;raw&lt;/IMEI&gt;
+                    &lt;ANDROIDID&gt;raw&lt;/ANDROIDID&gt;
+                &lt;/encrypt&gt;
+                &lt;!--
+                &lt;applist&gt;
+                    applist上报地址 e.g. https:xxxx.com.cn/track/applist
+                    &lt;uploadUrl&gt;/apl/&lt;/uploadUrl&gt;
+                    applist上报时间间隔，单位为小时,配置为0时，不上报
+                    &lt;uploadTime&gt;0&lt;/uploadTime&gt;
+                &lt;/applist&gt;
+                 --&gt;
+            &lt;/switch&gt;
+            &lt;config&gt;
+                &lt;arguments&gt;
+                    &lt;!--argument的必选和常用可选参数 key需确定--&gt;
+                    &lt;!--必选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OS&lt;/key&gt;
+                        &lt;value&gt;ros&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;TS&lt;/key&gt;
+                        &lt;value&gt;rts&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;MAC&lt;/key&gt;
+                        &lt;value&gt;rmc&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;IDFA&lt;/key&gt;
+                        &lt;value&gt;rif&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;IMEI&lt;/key&gt;
+                        &lt;value&gt;rim&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ANDROIDID&lt;/key&gt;
+                        &lt;value&gt;ranid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFI&lt;/key&gt;
+                        &lt;value&gt;rwf&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AKEY&lt;/key&gt;
+                        &lt;value&gt;rak&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ANAME&lt;/key&gt;
+                        &lt;value&gt;rnm&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!--可选函数--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SCWH&lt;/key&gt;
+                        &lt;value&gt;rscwh&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- WiFi Name--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFISSID&lt;/key&gt;
+                        &lt;value&gt;rssid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;!-- WiFi MAC--&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;WIFIBSSID&lt;/key&gt;
+                        &lt;value&gt;rbssid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OPENUDID&lt;/key&gt;
+                        &lt;value&gt;rouid&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;TERM&lt;/key&gt;
+                        &lt;value&gt;rterm&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;OSVS&lt;/key&gt;
+                        &lt;value&gt;rosv&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;LBS&lt;/key&gt;
+                        &lt;value&gt;rlbs&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;SDKVS&lt;/key&gt;
+                        &lt;value&gt;rsdkv&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;REDIRECTURL&lt;/key&gt;
+                        &lt;value&gt;rrd&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/arguments&gt;
+                &lt;events&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;m1&lt;/name&gt;--&gt;
+                        &lt;key&gt;start&lt;/key&gt;
+                        &lt;value&gt;ev01&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                    &lt;event&gt;
+                        &lt;!--&lt;name&gt;e1&lt;/name&gt;--&gt;
+                        &lt;key&gt;end&lt;/key&gt;
+                        &lt;value&gt;ev02&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                    &lt;/event&gt;
+                &lt;/events&gt;
+                &lt;Adplacement&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;Adplacement&lt;/key&gt;
+                        &lt;value&gt;p&lt;/value&gt;
+                        &lt;urlEncode&gt;false&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;false&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/Adplacement&gt;
+                &lt;viewabilityarguments&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;ImpressionID&lt;/key&gt;
+                        &lt;value&gt;vimp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityRecord&lt;/key&gt;
+                        &lt;value&gt;vrc&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityEvents&lt;/key&gt;
+                        &lt;value&gt;vev&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityTime&lt;/key&gt;
+                        &lt;value&gt;vt&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityFrame&lt;/key&gt;
+                        &lt;value&gt;vf&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityPoint&lt;/key&gt;
+                        &lt;value&gt;vp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityAlpha&lt;/key&gt;
+                        &lt;value&gt;va&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShown&lt;/key&gt;
+                        &lt;value&gt;vs&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityCoverRate&lt;/key&gt;
+                        &lt;value&gt;vcr&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityShowFrame&lt;/key&gt;
+                        &lt;value&gt;vsf&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityForground&lt;/key&gt;
+                        &lt;value&gt;vfg&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityResult&lt;/key&gt;
+                        &lt;value&gt;vrr&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigArea&lt;/key&gt;
+                        &lt;value&gt;vca&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityConfigThreshold&lt;/key&gt;
+                        &lt;value&gt;vct&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoDuration&lt;/key&gt;
+                        &lt;value&gt;vvd&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgress&lt;/key&gt;
+                        &lt;value&gt;vvp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoPlayType&lt;/key&gt;
+                        &lt;value&gt;vvpt&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                    &lt;argument&gt;
+                        &lt;key&gt;AdviewabilityVideoProgressPoint&lt;/key&gt;
+                        &lt;value&gt;vvpp&lt;/value&gt;
+                        &lt;urlEncode&gt;true&lt;/urlEncode&gt;
+                        &lt;isRequired&gt;true&lt;/isRequired&gt;
+                    &lt;/argument&gt;
+                &lt;/viewabilityarguments&gt;
+            &lt;/config&gt;
+            &lt;separator&gt;&amp;amp;&lt;/separator&gt;
+            &lt;!--&lt;separator&gt;&amp;amp;&lt;/separator&gt;--&gt;
+            &lt;equalizer&gt;=&lt;/equalizer&gt;
+            &lt;!--如果设置true   timeStamper使用秒--&gt;
+            &lt;timeStampUseSecond&gt;true&lt;/timeStampUseSecond&gt;
+        &lt;/company&gt;
+
+    &lt;/companies&gt;
+&lt;/config&gt;
+    </string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="sdkversion_1.1.4.16_r7_tracemethods">,1</string>
+    <string name="ntsdkver_1.1.4.16_r7_0">(0)</string>
+    <string name="ntsdkver_1.1.4.16_r7_1">(0),(1)</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="upgrade_content">- 问题修复以及性能提升
+- 优化用户体验</string>
+    <string name="upgrade_version">7.2.3.13086</string>
+    <string name="upgrade_title">版本升级</string>
+    <long name="upgrade_time" value="1586179185738" />
+    <int name="upgrade_version_code" value="-1" />
+    <long name="last_show_upgrade_time" value="1586179185728" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="update_devId" value="true" />
+    <long name="log_fc_create" value="1586332757273" />
+    <boolean name="com.kwguard.security.sperf.aleadyLaunch_3707992886" value="true" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="push_register_provider_tokens">{&quot;xiaomi&quot;:&quot;WvCjI4Q/IB3Ps5FKe66aOYmMozTZDwuQu60608knVJVaFFcC2BU0TXpXDNdr0xpa&quot;}</string>
+    <string name="last_push_register_time">{&quot;xiaomi&quot;:1585798715491}</string>
+    <string name="push_register_interval_string">604800000</string>
+    <string name="push_is_background">true</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="t2" value="1584757695172" />
+    <string name="K_1171477665">14C859CCF70575B1D7FE7D7877153E7C672F071381B1643BC1E1203722954430</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="deviceid">xqTEgSSuAGn3wyYyIInPH008uJp2-1ZaR</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="HalleyOperInfo_100">ssid_R1128c2ddc8c66b398428:C2:DD:C8:C6:6Bh,lcth;l</string>
+    <string name="apnrecords">{&quot;ssid_R1128c2ddc8c66b398428:C2:DD:C8:C6:6B&quot;:{&quot;lastCode&quot;:0,&quot;lastReqTime&quot;:22251511}}</string>
+    <string name="settings_in_client">{&quot;data&quot;:{&quot;report_req_other_fail_rate&quot;:{&quot;all&quot;:100,&quot;100&quot;:1,&quot;100-com.smile.gifmaker&quot;:10},&quot;detect_when_start&quot;:{&quot;all&quot;:0},&quot;down_report_exception&quot;:{&quot;all&quot;:0},&quot;report_req_nonet_fail_rate&quot;:{&quot;all&quot;:1,&quot;100&quot;:0,&quot;100-com.soso.evaluateextra&quot;:100},&quot;self_report_succ_rate&quot;:{&quot;all&quot;:1},&quot;down_use_multi_thread&quot;:{&quot;all&quot;:1},&quot;report_selfchannel_open&quot;:{&quot;all&quot;:1},&quot;report_req_succ_denominator_value&quot;:{&quot;all&quot;:10000,&quot;100&quot;:200000},&quot;http_platform_update_interval_fail&quot;:{&quot;all&quot;:3600000},&quot;app_req_timeout&quot;:{&quot;all&quot;:15000},&quot;ip_need_update_time&quot;:{&quot;all&quot;:3600000},&quot;report_req_beason_count_denominator_value&quot;:{&quot;all&quot;:10000},&quot;test&quot;:{&quot;all&quot;:1,&quot;100&quot;:100,&quot;all-com.test&quot;:200},&quot;report_security_req_succ_rate&quot;:{&quot;all&quot;:1},&quot;K_down_report_exception&quot;:{&quot;all&quot;:1},&quot;platform_reconn_interval&quot;:{&quot;all&quot;:20000},&quot;down_use_halley_schedule&quot;:{&quot;all&quot;:0},&quot;app_http_proxy_timeout&quot;:{&quot;all&quot;:0,&quot;100&quot;:5000},&quot;direct_fail_to_report_dns_ip&quot;:{&quot;all&quot;:0},&quot;report_new_record_num&quot;:{&quot;all&quot;:20,&quot;100&quot;:50},&quot;ip_expire_time&quot;:{&quot;all&quot;:86400000},&quot;detect_obtain_ip_type_interval&quot;:{&quot;all&quot;:0},&quot;conn_nonet_fail_rate&quot;:{&quot;all&quot;:10},&quot;direct_access_use_schedule&quot;:{&quot;all&quot;:1},&quot;report_req_ssl_first_rate&quot;:{&quot;all&quot;:&quot;1&quot;},&quot;report_req_other_fail_denominator_value&quot;:{&quot;all&quot;:10,&quot;100&quot;:1000},&quot;report_req_succ_rate&quot;:{&quot;all&quot;:1,&quot;100&quot;:0},&quot;report_conn_succ_rate&quot;:{&quot;all&quot;:1},&quot;platform_heart_interval&quot;:{&quot;all&quot;:240000},&quot;report_req_nonet_fail_denominator_value&quot;:{&quot;all&quot;:20000,&quot;100&quot;:200000},&quot;apn_cache_num&quot;:{&quot;all&quot;:8},&quot;do_report_before_request&quot;:{&quot;all&quot;:0},&quot;self_report_succ_denominator_value&quot;:{&quot;all&quot;:100000},&quot;http_platform_start_update_on&quot;:{&quot;all&quot;:1,&quot;100&quot;:0},&quot;report_timer_interval&quot;:{&quot;all&quot;:300000,&quot;100&quot;:600000},&quot;report_req_ssl_first_denominator_value&quot;:{&quot;all&quot;:10000,&quot;100&quot;:200000},&quot;platform_keepalive_mode&quot;:{&quot;all&quot;:1},&quot;https_cert_model&quot;:{&quot;all&quot;:0},&quot;report_all_events&quot;:{&quot;all&quot;:1,&quot;100&quot;:0,&quot;100-com.tencent.map&quot;:0,&quot;100-com.example.evaluateextra&quot;:1,&quot;100-com.soso.evaluateextra&quot;:1},&quot;report_disconn_rate&quot;:{&quot;all&quot;:100},&quot;enable_dns_hook&quot;:{&quot;all&quot;:&quot;1&quot;},&quot;detect_use_http_platform_on&quot;:{&quot;all&quot;:0},&quot;direct_access_domain_try_times&quot;:{&quot;all&quot;:2,&quot;100&quot;:1},&quot;platform_obtain_location&quot;:{&quot;all&quot;:0},&quot;report_conn_nonet_fail_rate&quot;:{&quot;all&quot;:1},&quot;app_auto_switch_http&quot;:{&quot;all&quot;:0,&quot;100&quot;:1},&quot;down_report_detail&quot;:{&quot;all&quot;:1},&quot;K_report_selfchannel_first&quot;:{&quot;all&quot;:1},&quot;http_platform_update_interval_succ&quot;:{&quot;all&quot;:3600000,&quot;100&quot;:3600000},&quot;report_clear_db_num&quot;:{&quot;all&quot;:1000},&quot;report_selfchannel_first&quot;:{&quot;all&quot;:1}},&quot;version&quot;:&quot;1089_417_0_100&quot;}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="halley_cloud_param_content">{&quot;data&quot;:{&quot;report_req_other_fail_rate&quot;:{&quot;all&quot;:100,&quot;100&quot;:1,&quot;100-com.smile.gifmaker&quot;:10},&quot;detect_when_start&quot;:{&quot;all&quot;:0},&quot;down_report_exception&quot;:{&quot;all&quot;:0},&quot;report_req_nonet_fail_rate&quot;:{&quot;all&quot;:1,&quot;100&quot;:0,&quot;100-com.soso.evaluateextra&quot;:100},&quot;self_report_succ_rate&quot;:{&quot;all&quot;:1},&quot;down_use_multi_thread&quot;:{&quot;all&quot;:1},&quot;report_selfchannel_open&quot;:{&quot;all&quot;:1},&quot;report_req_succ_denominator_value&quot;:{&quot;all&quot;:10000,&quot;100&quot;:200000},&quot;http_platform_update_interval_fail&quot;:{&quot;all&quot;:3600000},&quot;app_req_timeout&quot;:{&quot;all&quot;:15000},&quot;ip_need_update_time&quot;:{&quot;all&quot;:3600000},&quot;report_req_beason_count_denominator_value&quot;:{&quot;all&quot;:10000},&quot;test&quot;:{&quot;all&quot;:1,&quot;100&quot;:100,&quot;all-com.test&quot;:200},&quot;report_security_req_succ_rate&quot;:{&quot;all&quot;:1},&quot;K_down_report_exception&quot;:{&quot;all&quot;:1},&quot;platform_reconn_interval&quot;:{&quot;all&quot;:20000},&quot;down_use_halley_schedule&quot;:{&quot;all&quot;:0},&quot;app_http_proxy_timeout&quot;:{&quot;all&quot;:0,&quot;100&quot;:5000},&quot;direct_fail_to_report_dns_ip&quot;:{&quot;all&quot;:0},&quot;report_new_record_num&quot;:{&quot;all&quot;:20,&quot;100&quot;:50},&quot;ip_expire_time&quot;:{&quot;all&quot;:86400000},&quot;detect_obtain_ip_type_interval&quot;:{&quot;all&quot;:0},&quot;conn_nonet_fail_rate&quot;:{&quot;all&quot;:10},&quot;direct_access_use_schedule&quot;:{&quot;all&quot;:1},&quot;report_req_ssl_first_rate&quot;:{&quot;all&quot;:&quot;1&quot;},&quot;report_req_other_fail_denominator_value&quot;:{&quot;all&quot;:10,&quot;100&quot;:1000},&quot;report_req_succ_rate&quot;:{&quot;all&quot;:1,&quot;100&quot;:0},&quot;report_conn_succ_rate&quot;:{&quot;all&quot;:1},&quot;platform_heart_interval&quot;:{&quot;all&quot;:240000},&quot;report_req_nonet_fail_denominator_value&quot;:{&quot;all&quot;:20000,&quot;100&quot;:200000},&quot;apn_cache_num&quot;:{&quot;all&quot;:8},&quot;do_report_before_request&quot;:{&quot;all&quot;:0},&quot;self_report_succ_denominator_value&quot;:{&quot;all&quot;:100000},&quot;http_platform_start_update_on&quot;:{&quot;all&quot;:1,&quot;100&quot;:0},&quot;report_timer_interval&quot;:{&quot;all&quot;:300000,&quot;100&quot;:600000},&quot;report_req_ssl_first_denominator_value&quot;:{&quot;all&quot;:10000,&quot;100&quot;:200000},&quot;platform_keepalive_mode&quot;:{&quot;all&quot;:1},&quot;https_cert_model&quot;:{&quot;all&quot;:0},&quot;report_all_events&quot;:{&quot;all&quot;:1,&quot;100&quot;:0,&quot;100-com.tencent.map&quot;:0,&quot;100-com.example.evaluateextra&quot;:1,&quot;100-com.soso.evaluateextra&quot;:1},&quot;report_disconn_rate&quot;:{&quot;all&quot;:100},&quot;enable_dns_hook&quot;:{&quot;all&quot;:&quot;1&quot;},&quot;detect_use_http_platform_on&quot;:{&quot;all&quot;:0},&quot;direct_access_domain_try_times&quot;:{&quot;all&quot;:2,&quot;100&quot;:1},&quot;platform_obtain_location&quot;:{&quot;all&quot;:0},&quot;report_conn_nonet_fail_rate&quot;:{&quot;all&quot;:1},&quot;app_auto_switch_http&quot;:{&quot;all&quot;:0,&quot;100&quot;:1},&quot;down_report_detail&quot;:{&quot;all&quot;:1},&quot;K_report_selfchannel_first&quot;:{&quot;all&quot;:1},&quot;http_platform_update_interval_succ&quot;:{&quot;all&quot;:3600000,&quot;100&quot;:3600000},&quot;report_clear_db_num&quot;:{&quot;all&quot;:1000},&quot;report_selfchannel_first&quot;:{&quot;all&quot;:1}},&quot;version&quot;:&quot;1089_417_0_100&quot;}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="xytk" value="false" />
+    <boolean name="na_m_lm_en" value="true" />
+    <string name="kwtk">8c3qRFs0YtNDdQDTCVu97ILx8I6gLqnDfStOQ547SCKOyKJmPP15+glxxB+z3cmz8Mk3GhPIb6+k
+UIfVCuKOccX0eq6rwwKO6ypqNfibskTU/MnafB+PSX5yKTulvgXauLVftp8Egdu9kayQgREvnUa4
+ptd67VSU++lriTcDI6l2hw==
+    </string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="re_day_len" value="0" />
+    <string name="plc22">{&quot;1&quot;:1}</string>
+    <string name="k_s_c_d_f__c_p">getNetworkIso42dgetNetworkIso69974getNetworkIsoce8f1329bc2e616getNetworkIsod342getNetworkIso</string>
+    <int name="dfp_net_hr" value="7" />
+    <string name="plc25">{&quot;1&quot;:1}</string>
+    <string name="k_s_c_d_f__i_t_x">cfcd208495d565ef66e7dff9f98764dgetNetworkIso</string>
+    <string name="plc11">{&quot;1&quot;:1}</string>
+    <string name="plc6">{&quot;1&quot;:1}</string>
+    <string name="k_d_29">0</string>
+    <string name="k_s_c_d_f__p_p">cbgetNetworkIsogetNetworkIso84d8122getNetworkIsocgetNetworkIso375460d4e687d6f25getNetworkIso</string>
+    <long name="env_f_r_ks_ts" value="1586327947482" />
+    <string name="plc37">{&quot;1&quot;:0}</string>
+    <long name="updp_ks_f_t" value="2" />
+    <string name="plc28">{&quot;1&quot;:1}</string>
+    <string name="plc14">{&quot;1&quot;:1}</string>
+    <string name="plc3">{&quot;1&quot;:1}</string>
+    <string name="plc1">{&quot;1&quot;:0}</string>
+    <string name="plc23">{&quot;1&quot;:1}</string>
+    <string name="plc16">{&quot;1&quot;:1}</string>
+    <string name="env_l_sn_d">202038</string>
+    <string name="plc13">{&quot;1&quot;:1}</string>
+    <string name="k_d_30">0</string>
+    <string name="plc8">{&quot;1&quot;:1}</string>
+    <string name="plc32">{&quot;1&quot;:1}</string>
+    <string name="plc18">{&quot;1&quot;:1}</string>
+    <int name="rik_l_s_ks_ts" value="3" />
+    <string name="k_s_c_d_f__u_s">1</string>
+    <string name="plc35">{&quot;1&quot;:1}</string>
+    <boolean name="env_ks_deswit" value="true" />
+    <string name="kwddk_pro">ANDROID_28c2ddc8c66b3984</string>
+    <int name="al_ev_al_c" value="7" />
+    <string name="k_s_c_d_f__a_h_s">cfcd208495d565ef66e7dff9f98764dgetNetworkIso</string>
+    <boolean name="dndp_ks_t_t" value="true" />
+    <string name="plc7">{&quot;1&quot;:1}</string>
+    <string name="rist_l_sn_d">202038</string>
+    <string name="ksnewd">0|1b9d56getNetworkIso4603dgetNetworkIsofgetNetworkIso44687e4getNetworkIso4ee91bd2getNetworkIso|74</string>
+    <long name="re_day_b_t" value="1586178925598" />
+    <boolean name="dfp_nu_swit" value="true" />
+    <string name="k_s_c_d_f__m_t_p"></string>
+    <string name="k_s_c_d_f__sml_p">7de8b85f484dc3bgetNetworkIso1d3c24e069cb06e7</string>
+    <int name="pl_k_p_itl" value="3" />
+    <int name="env_ks_destttt" value="60" />
+    <int name="env_l_s_ks_ts" value="0" />
+    <string name="plc9">{&quot;1&quot;:1}</string>
+    <string name="k_s_c_d_f__v_p"> </string>
+    <string name="plc4">{&quot;1&quot;:1}</string>
+    <int name="al_dfr_al_c_l" value="8" />
+    <string name="plc17">{&quot;1&quot;:1}</string>
+    <int name="re_net_hr" value="3" />
+    <string name="plc12">{&quot;1&quot;:1}</string>
+    <string name="kwtk_pro">KUAISHOU</string>
+    <int name="al_ev_al_i" value="1" />
+    <string name="k_s_c_d_f__d_m">0</string>
+    <string name="plc10">{&quot;1&quot;:1}</string>
+    <string name="k_s_c_d_f__i_r">/system/xbin/su</string>
+    <string name="plc36"></string>
+    <string name="plc15">{&quot;1&quot;:1}</string>
+    <string name="plc20">{&quot;1&quot;:1}</string>
+    <string name="c_d_30">0</string>
+    <string name="plc5">{&quot;1&quot;:1}</string>
+    <string name="k_s_c_d_f__i_d">getNetworkIso563354d8c572572db202d0getNetworkIsoece5494d</string>
+    <string name="plc38"></string>
+    <string name="plc2">{&quot;1&quot;:0,&quot;sys&quot;:1}</string>
+    <boolean name="env_ks_swit" value="true" />
+    <int name="up_nu_co" value="10" />
+    <string name="plc34">{&quot;1&quot;:1}</string>
+    <string name="plc27">{&quot;1&quot;:1}</string>
+    <string name="plc26">{&quot;1&quot;:1}</string>
+    <boolean name="up_ala_swit" value="false" />
+    <string name="plc30">{&quot;1&quot;:1}</string>
+    <string name="plc19">{&quot;1&quot;:1}</string>
+    <string name="plc21">{&quot;1&quot;:1}</string>
+    <string name="k_s_t_c_s">1585881662000</string>
+    <string name="plc33">{&quot;1&quot;:1}</string>
+    <string name="plc24">{&quot;1&quot;:1}</string>
+    <long name="pl_l_p_kp" value="1586337948907" />
+    <long name="rikt_f_r_ks_ts" value="1586332831330" />
+    <string name="plc29">{&quot;1&quot;:0}</string>
+    <long name="re_last_ofline_time" value="1586329347546" />
+    <string name="k_s_c_d_f__c_v_c">getNetworkIso87ff679getNetworkIso2f3e71d9181getNetworkIso67b7542122c</string>
+    <boolean name="dfp_nu_ccen" value="false" />
+    <boolean name="up_nu_swit" value="true" />
+    <string name="plc31">{&quot;1&quot;:1}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="pref_current_account">{&quot;userId&quot;:1856840699,&quot;serviceToken&quot;:&quot;ChdrdWFpc2hvdS5zaXhpbi5sb2dpbi5zdBKQAZr9b1_w7_53R9kHgs2subvds6reHzSBNyfy85CidTPu7U5fTHZ-J3lcxagt0qI_p_wT4bUBeOP-2WshIc-CMZ-daMT7gMZx0EJ5WGOSI1gYvrlcXsw6i2HoAyI7rY85xkZ7wo3PmeENTlP1omdzyuyx5Z3gv7lrivSnbDhDVMPLzW1jXGYPucPMeY5Pcn9iFxoSiiZCW1k4Q7CnylHQzMaV2Y5_IiAie-nSjrZbbIdelStDsBSN5Ib-GU0W6Ds15BTXZEZLpCgFMAE&quot;,&quot;sSecurity&quot;:&quot;4tS108ffFhRwbL8rNFUhUA==&quot;}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="opt_servers">[{&quot;key&quot;:&quot;28:C2:DD:C8:C6:6B&quot;,&quot;value&quot;:&quot;{\&quot;optimumServers\&quot;:[\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;120.92.47.40\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;112.126.1.192\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;112.126.1.193\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;112.126.1.194\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;123.57.5.174\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;123.57.7.150\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;123.57.50.26\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;123.57.7.138\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;123.56.234.39\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;152.136.9.109\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;62.234.225.140\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;62.234.225.128\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;,\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;120.92.208.147\\\&quot;,\\\&quot;serverPort\\\&quot;:0,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:1}\&quot;],\&quot;ts\&quot;:1586338223145}&quot;}]</string>
+    <string name="recently_servers">[{&quot;key&quot;:&quot;28:C2:DD:C8:C6:6B&quot;,&quot;value&quot;:&quot;{\&quot;recentlyServer\&quot;:\&quot;{\\\&quot;serverIp\\\&quot;:\\\&quot;120.92.47.40\\\&quot;,\\\&quot;serverPort\\\&quot;:80,\\\&quot;proxyPort\\\&quot;:0,\\\&quot;protocol\\\&quot;:1,\\\&quot;serverType\\\&quot;:3}\&quot;,\&quot;ts\&quot;:1586338223160}&quot;}]</string>
+    <string name="backup_ip">[{&quot;serverIp&quot;:&quot;152.136.9.109&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;62.234.225.140&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;62.234.225.128&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;120.92.208.147&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;120.92.47.40&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;112.126.1.192&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;112.126.1.193&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;112.126.1.194&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;123.57.5.174&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;123.57.7.150&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;123.57.50.26&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;123.57.7.138&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5},{&quot;serverIp&quot;:&quot;123.56.234.39&quot;,&quot;serverPort&quot;:0,&quot;proxyPort&quot;:0,&quot;protocol&quot;:1,&quot;serverType&quot;:5}]</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='ye
+<map>
+    <boolean name="flag_wf" value="false" />
+    <string name="macaddr">08:00:27:FB:FA:86</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="macaddr">Mjg6QzI6REQ6Qzg6QzY6NkI=
+    </string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="vName">6.9.2.11245</string>
+    <boolean name="valid" value="true" />
+    <string name="regId">WvCjI4Q/IB3Ps5FKe66aOYmMozTZDwuQu60608knVJVaFFcC2BU0TXpXDNdr0xpa</string>
+    <int name="envType" value="1" />
+    <string name="appRegion">Singapore</string>
+    <string name="appId">2882303761517130534</string>
+    <string name="regSec">DD2f2Ny3b0B6IU0XE0AAAA==</string>
+    <string name="appToken">5431713053534</string>
+    <string name="regResource">Eg806n</string>
+    <string name="devId">2944890DD01B224E87A27A813D80CA67881AC09F</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="env_type" value="1" />
+    <string name="device_id">B382381F2DED5BD036813F6DD28D2B1D696E6BAF</string>
+    <string name="security">wHWUuidZh+yn/rjsN8MiZQ==</string>
+    <string name="token">S384VhMRhwCP+PeaY07sYo6qK/zjp1kkmeKkhxaPRPgYCzCwpKKigczTYLRjiYVaFUEbicBgiIQO500gev7cKVN4j4zt5KcXXeAILmMnF88FvULsycnjvbMO8po+QQLBk7OM4Gv9GwhDKYPGhupa2k19VqXilLMSCE07tfaHs9MRVYxzymfhN6wTQ40CfYgb7MlNfheCXqGaarbzpxAgmg==</string>
+    <string name="uuid">150799668821@xiaomi.com/anXioUCd</string>
+    <string name="app_token">5431713053534</string>
+    <string name="app_id">2882303761517130534</string>
+    <string name="package_name">com.smile.gifmaker</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="last_job_time23" value="1586316436417" />
+    <long name="last_reg_request" value="1586332769008" />
+    <long name="last_job_time3" value="1585744098114" />
+    <long name="first_try_ts" value="1585559998432" />
+    <long name="last_job_time2" value="1586316371395" />
+    <long name="last_sync_info" value="1585559958" />
+    <int name="service_boot_mode" value="0" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="normal_oc_20" value="false" />
+    <boolean name="normal_oc_6" value="false" />
+    <boolean name="normal_oc_18" value="false" />
+    <boolean name="normal_oc_7" value="false" />
+    <boolean name="normal_oc_60" value="false" />
+    <boolean name="normal_oc_52" value="false" />
+    <boolean name="normal_oc_45" value="false" />
+    <boolean name="normal_oc_43" value="false" />
+    <boolean name="normal_oc_10" value="false" />
+    <int name="oc_version_2" value="29" />
+    <int name="oc_version_1" value="29" />
+    <boolean name="normal_oc_14" value="false" />
+    <int name="normal_oc_46" value="0" />
+    <boolean name="normal_oc_49" value="false" />
+    <boolean name="normal_oc_3" value="false" />
+    <boolean name="normal_oc_22" value="false" />
+    <boolean name="normal_oc_24" value="false" />
+    <boolean name="normal_oc_47" value="false" />
+    <boolean name="normal_oc_12" value="false" />
+    <boolean name="normal_oc_4" value="false" />
+    <boolean name="normal_oc_8" value="false" />
+    <boolean name="normal_oc_5" value="false" />
+    <boolean name="normal_oc_33" value="false" />
+    <boolean name="normal_oc_1" value="false" />
+    <boolean name="normal_oc_31" value="false" />
+    <boolean name="normal_oc_16" value="false" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="key_instance_id" value="9215838929061233052" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="com.smile.gifmaker">2882303761517130534</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="webLoadStatEvent" value="29" />
+    <int name="videoStatEvent" value="4" />
+    <int name="searchEvent" value="49" />
+    <int name="wifiStatEvent" value="18" />
+    <int name="networkStatEvent" value="3" />
+    <int name="customProtoEvent" value="3" />
+    <int name="apiCostDetailStatEvent" value="2" />
+    <int name="taskEvent" value="141" />
+    <int name="customStatEvent" value="7" />
+    <int name="launchEvent" value="3" />
+    <int name="clickEvent" value="5" />
+    <int name="cdnResourceLoadStatEvent" value="10" />
+    <int name="idcSpeedStatEvent" value="3" />
+    <int name="livePlayBizStatEvent" value="1" />
+    <int name="deviceStatEvent" value="1" />
+    <int name="audienceStatEvent" value="1" />
+    <int name="HIGH_FREQ" value="88" />
+    <int name="showEvent" value="39" />
+    <int name="applicationStatEvent" value="1" />
+    <int name="audienceQosSliceStatEvent" value="2" />
+    <int name="SeqId" value="16949" />
+    <int name="REAL_TIME" value="1" />
+    <int name="NORMAL" value="16862" />
+    <int name="customEvent" value="18" />
+    <int name="exceptionEvent" value="5" />
+    <int name="appUsageStatEvent" value="3" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="sp_client_report_key">37s23ONk6fRsF5wbFiOr</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="70A14F03EDDF9E6FC97B65F8DB724FE8">1</string>
+    <string name="E601E178A14A1C5720741162FE5FFC46">0</string>
+    <string name="2A1645D5883EE9B1EC9C127E8AAA2254"></string>
+    <string name="E8D139C9C846FD27146DCA0A73AA9391"></string>
+    <string name="1EA870380E29D05499634B0356F02C52">0</string>
+    <string name="239883BAAD2CCD7A939140112F2CC086">:LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlFb1RDQ0E0bWdBd0lCQWdJUUFXNlQwWS9YYzB4U1BOd3o3VG9JV1RBTkJna3Foa2lHOXcwQkFRc0ZBREJoDQpNUXN3Q1FZRFZRUUdFd0pWVXpFVk1CTUdBMVVFQ2hNTVJHbG5hVU5sY25RZ1NXNWpNUmt3RndZRFZRUUxFeEIzDQpkM2N1WkdsbmFXTmxjblF1WTI5dE1TQXdIZ1lEVlFRREV4ZEVhV2RwUTJWeWRDQkhiRzlpWVd3Z1VtOXZkQ0JEDQpRVEFlRncweE9EQTBNamN4TWpReU5URmFGdzB5T0RBME1qY3hNalF5TlRGYU1GWXhDekFKQmdOVkJBWVRBa05PDQpNU1V3SXdZRFZRUUtFeHhVY25WemRFRnphV0VnVkdWamFHNXZiRzluYVdWekxDQkpibU11TVNBd0hnWURWUVFEDQpFeGRVY25WemRFRnphV0VnVDFZZ1ZFeFRJRkJ5YnlCRFFUQ0NBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQDQpBRENDQVFvQ2dnRUJBTmkzVjk0ZWV6bzgzZWZvL0R0NWs0em5DaU0vaEtzc3kwSjNXczRkM0Y4aE00ejVPaHRJDQpZOFlCbEtmbDFncW1CbXFPZ2QzSHd5Q21YYngyUmV1ZDNuVCsrR1ZwOVQ1ZGlUNkFLU25LVHdwVEJqaXBjSjZHDQpSc0N5NGRxczJET3g2ekJJNERqMkxsWWhTaFcxcEg4VnpEbW10U2ZVRUY1bE9UVjdpSjhQUGlCd3MzN1RsUHc3DQpCYjM2bGxud3RYR2xZcjV6VnhyWUkzV2F0WUxKSFh5d1B0aXhzNEVndEc3YS9PcHNEV3RHcW1rRGYzdXNlMTNCDQp0d29Cb3J2RnRVZENQYVBIR2dpUlgzc2VEbTJLYXVaY0gvZWpJVHJsKzhqRUVnaGQwMW8za1BnaU11ZC93cEdTDQpxYitkR3NSeVgyMGgwKy9qZ0ZOUFNDdi9lcVczVjFOcW81VUNBd0VBQWFPQ0FWNHdnZ0ZhTUIwR0ExVWREZ1FXDQpCQlJQaGZ5YldkUEdVNWVQdkI2RDh4NkNKUlM4ZVRBZkJnTlZIU01FR0RBV2dCUUQzbEExVnRGTXUyYndvK0liDQpHOE9Yc2ozUlZUQU9CZ05WSFE4QkFmOEVCQU1DQVlZd0hRWURWUjBsQkJZd0ZBWUlLd1lCQlFVSEF3RUdDQ3NHDQpBUVVGQndNQ01CSUdBMVVkRXdFQi93UUlNQVlCQWY4Q0FRQXdOd1lJS3dZQkJRVUhBUUVFS3pBcE1DY0dDQ3NHDQpBUVVGQnpBQmhodG9kSFJ3T2k4dmIyTnpjQzVrYVdkcFkyVnlkQzFqYmk1amIyMHdSQVlEVlIwZkJEMHdPekE1DQpvRGVnTllZemFIUjBjRG92TDJOeWJDNWthV2RwWTJWeWRDMWpiaTVqYjIwdlJHbG5hVU5sY25SSGJHOWlZV3hTDQpiMjkwUTBFdVkzSnNNRllHQTFVZElBUlBNRTB3TndZSllJWklBWWI5YkFFQk1Db3dLQVlJS3dZQkJRVUhBZ0VXDQpIR2gwZEhCek9pOHZkM2QzTG1ScFoybGpaWEowTG1OdmJTOURVRk13Q0FZR1o0RU1BUUlDTUFnR0JtZUJEQUVDDQpBekFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBYXFMakNBeURqcTRaVVJJeHhXWENQL1RGdHJ1TUZicUpMOG9sDQplUWpoZ2pXTkg0Ry9kRmNOUHdoR1pVVGYxcURFSE1CSjlCOEJoQnpiWGFFWjNZd1A0TUlGb2tXZDhqY012a1RNDQo0SjlUd2F6MVNvV3NqRzhLYUMzZHFBYWlFWFhsaU5sT3dtbU82OE9yMlVxUFZqTFZseXBMTVphSUVQL0tIT1JHDQpxYU1XWDNKSElQVmdzTTd0T0g5V2gzOCs5UExpcGo1dVpielFTVEhVUWVQaEZaWC9wSDNQdFZvZ1RIS2hZcWEwDQprOGVEbUVhd3R3aXk0UWlVTUdhZGNTOGFxd2plaUFDWTAzTWtwWlM0a2luUmR6cnk3TUkyYkN4NVVERUdUbG9ODQp6NWJvQ1FvQ00weWhCbCtJVEhuNmVzSkRESHJYMFZUZ0k4clNUOGV5UUNtU3JmYW43dz09DQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t</string>
+    <long name="7A03F2FAEB9A43D1DADC59B3522F66BF" value="1585798705307" />
+    <string name="D2BACDDC37AC89864DE2E14ABF531282">0</string>
+    <string name="FA0413B0E468CC4EC653F7C951FFEAAB">0</string>
+    <int name="C8A2EFD8D34F1FBB3856C555D68F8887" value="1" />
+    <string name="2184E26C55EA2A8970760DB8CC893668"></string>
+    <string name="47F7DCDE7F2E7967B08A8D0BB8C36100">:LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlFb1RDQ0E0bWdBd0lCQWdJUUFXNlQwWS9YYzB4U1BOd3o3VG9JV1RBTkJna3Foa2lHOXcwQkFRc0ZBREJoDQpNUXN3Q1FZRFZRUUdFd0pWVXpFVk1CTUdBMVVFQ2hNTVJHbG5hVU5sY25RZ1NXNWpNUmt3RndZRFZRUUxFeEIzDQpkM2N1WkdsbmFXTmxjblF1WTI5dE1TQXdIZ1lEVlFRREV4ZEVhV2RwUTJWeWRDQkhiRzlpWVd3Z1VtOXZkQ0JEDQpRVEFlRncweE9EQTBNamN4TWpReU5URmFGdzB5T0RBME1qY3hNalF5TlRGYU1GWXhDekFKQmdOVkJBWVRBa05PDQpNU1V3SXdZRFZRUUtFeHhVY25WemRFRnphV0VnVkdWamFHNXZiRzluYVdWekxDQkpibU11TVNBd0hnWURWUVFEDQpFeGRVY25WemRFRnphV0VnVDFZZ1ZFeFRJRkJ5YnlCRFFUQ0NBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQDQpBRENDQVFvQ2dnRUJBTmkzVjk0ZWV6bzgzZWZvL0R0NWs0em5DaU0vaEtzc3kwSjNXczRkM0Y4aE00ejVPaHRJDQpZOFlCbEtmbDFncW1CbXFPZ2QzSHd5Q21YYngyUmV1ZDNuVCsrR1ZwOVQ1ZGlUNkFLU25LVHdwVEJqaXBjSjZHDQpSc0N5NGRxczJET3g2ekJJNERqMkxsWWhTaFcxcEg4VnpEbW10U2ZVRUY1bE9UVjdpSjhQUGlCd3MzN1RsUHc3DQpCYjM2bGxud3RYR2xZcjV6VnhyWUkzV2F0WUxKSFh5d1B0aXhzNEVndEc3YS9PcHNEV3RHcW1rRGYzdXNlMTNCDQp0d29Cb3J2RnRVZENQYVBIR2dpUlgzc2VEbTJLYXVaY0gvZWpJVHJsKzhqRUVnaGQwMW8za1BnaU11ZC93cEdTDQpxYitkR3NSeVgyMGgwKy9qZ0ZOUFNDdi9lcVczVjFOcW81VUNBd0VBQWFPQ0FWNHdnZ0ZhTUIwR0ExVWREZ1FXDQpCQlJQaGZ5YldkUEdVNWVQdkI2RDh4NkNKUlM4ZVRBZkJnTlZIU01FR0RBV2dCUUQzbEExVnRGTXUyYndvK0liDQpHOE9Yc2ozUlZUQU9CZ05WSFE4QkFmOEVCQU1DQVlZd0hRWURWUjBsQkJZd0ZBWUlLd1lCQlFVSEF3RUdDQ3NHDQpBUVVGQndNQ01CSUdBMVVkRXdFQi93UUlNQVlCQWY4Q0FRQXdOd1lJS3dZQkJRVUhBUUVFS3pBcE1DY0dDQ3NHDQpBUVVGQnpBQmhodG9kSFJ3T2k4dmIyTnpjQzVrYVdkcFkyVnlkQzFqYmk1amIyMHdSQVlEVlIwZkJEMHdPekE1DQpvRGVnTllZemFIUjBjRG92TDJOeWJDNWthV2RwWTJWeWRDMWpiaTVqYjIwdlJHbG5hVU5sY25SSGJHOWlZV3hTDQpiMjkwUTBFdVkzSnNNRllHQTFVZElBUlBNRTB3TndZSllJWklBWWI5YkFFQk1Db3dLQVlJS3dZQkJRVUhBZ0VXDQpIR2gwZEhCek9pOHZkM2QzTG1ScFoybGpaWEowTG1OdmJTOURVRk13Q0FZR1o0RU1BUUlDTUFnR0JtZUJEQUVDDQpBekFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBYXFMakNBeURqcTRaVVJJeHhXWENQL1RGdHJ1TUZicUpMOG9sDQplUWpoZ2pXTkg0Ry9kRmNOUHdoR1pVVGYxcURFSE1CSjlCOEJoQnpiWGFFWjNZd1A0TUlGb2tXZDhqY012a1RNDQo0SjlUd2F6MVNvV3NqRzhLYUMzZHFBYWlFWFhsaU5sT3dtbU82OE9yMlVxUFZqTFZseXBMTVphSUVQL0tIT1JHDQpxYU1XWDNKSElQVmdzTTd0T0g5V2gzOCs5UExpcGo1dVpielFTVEhVUWVQaEZaWC9wSDNQdFZvZ1RIS2hZcWEwDQprOGVEbUVhd3R3aXk0UWlVTUdhZGNTOGFxd2plaUFDWTAzTWtwWlM0a2luUmR6cnk3TUkyYkN4NVVERUdUbG9ODQp6NWJvQ1FvQ00weWhCbCtJVEhuNmVzSkRESHJYMFZUZ0k4clNUOGV5UUNtU3JmYW43dz09DQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0t</string>
+    <long name="63D3F66570927F8DB1B99BD98E743EF4" value="1585885113804" />
+    <string name="3046B678E060027DDC65F0CEF6C2BFA0">1</string>
+    <string name="5AA47986F042770423B8AFEE2C667BEF">0</string>
+    <int name="0A5013F1073A227192C1FB5545F5D268" value="3" />
+    <string name="E2C0DE8ADADCA39FE4ED9FA9E51BDDB6">0</string>
+    <string name="B742B86934208FAACE323D5A4AA0047C">20200402</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name=":ts-GAID" value="1586324847784" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="last_req" value="1586338428692" />
+    <int name="ekvc" value="0" />
+    <int name="vt" value="0" />
+    <string name="ek__id">861907010074049</string>
+    <string name="signature">8eb98eb8957c4949668ac8eb8aac4c0179130fa92e74010c2d37e4c7617f815e</string>
+    <int name="failed_requests " value="0" />
+    <int name="versioncode" value="11245" />
+    <string name="versionname">6.9.2.11245</string>
+    <long name="session_end_time" value="1586338485816" />
+    <int name="gkvc" value="0" />
+    <long name="last_request_time" value="1586338428692" />
+    <long name="session_start_time" value="1586338428389" />
+    <long name="a_start_time" value="0" />
+    <boolean name="main_fest_mode" value="false" />
+    <long name="thtstart" value="0" />
+    <int name="uopcnt" value="2" />
+    <long name="main_fest_timestamp" value="0" />
+    <long name="uopdte" value="18361" />
+    <string name="session_id">969A1760C27444A55D4AC7792276897C</string>
+    <long name="a_end_time" value="1586338485816" />
+    <int name="serial" value="43" />
+    <int name="last_request_spent_ms" value="14" />
+    <string name="ek_key">LfApu1FdX+4Z8mIyt131yw==
+    </string>
+    <int name="successful_request" value="42" />
+    <long name="first_activate_time" value="1585559950473" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="sdk_lastversion"></string>
+    <string name="sdk_policyid"></string>
+    <string name="sdk_lastupdatetime">1586316368564</string>
+    <string name="sdk_needreport"></string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="history_data">{&quot;data_list&quot;:[{&quot;net_type&quot;:1,&quot;update_time&quot;:0,&quot;width&quot;:720,&quot;height&quot;:1280,&quot;avg_rate&quot;:2210,&quot;max_rate&quot;:2300,&quot;short_bw&quot;:0,&quot;long_bw&quot;:12327},{&quot;net_type&quot;:2,&quot;update_time&quot;:0,&quot;width&quot;:0,&quot;height&quot;:0,&quot;avg_rate&quot;:0,&quot;max_rate&quot;:0,&quot;short_bw&quot;:0,&quot;long_bw&quot;:0},{&quot;net_type&quot;:3,&quot;update_time&quot;:0,&quot;width&quot;:0,&quot;height&quot;:0,&quot;avg_rate&quot;:0,&quot;max_rate&quot;:0,&quot;short_bw&quot;:0,&quot;long_bw&quot;:0},{&quot;net_type&quot;:0,&quot;update_time&quot;:0,&quot;width&quot;:0,&quot;height&quot;:0,&quot;avg_rate&quot;:0,&quot;max_rate&quot;:0,&quot;short_bw&quot;:0,&quot;long_bw&quot;:0}]}</string>
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="lastVersionCodeUsed" value="372913610" />
+</map>
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="DeviceUUID">a-B382381F2DED5BD036813F6DD28D2B1D696E6BAF</string>
+</map>

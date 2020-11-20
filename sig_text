@@ -1,0 +1,1 @@
+return new Pair<>("sig", CPU.a(c.a().b(), TextUtils.join("", a.b(map, map2)).getBytes(org.apache.internal.commons.io.a.f), Build.VERSION.SDK_INT));

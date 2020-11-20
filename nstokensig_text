@@ -1,0 +1,25 @@
+public static Pair $default$a(C0721b _this, String str, String str2) {
+         return new Pair("__NStokensig",
+d.a(
+org.apache.internal.commons.codec.b.a.c(
+org.apache.internal.commons.codec.a.e.a(
+str + str2))));
+
+d.a
+public final class d {public static String a(byte[] bArr) {return new String(b(bArr));}
+org.apache.internal.commons.codec.b.a.c
+public final class a {    public static byte[] c(byte[] bArr) {return b().digest(bArr);}
+org.apache.internal.commons.codec.a.e.a
+public final class e {public static byte[] a(String str) {return a(str, a.f);}}
+
+
+a(str, a.f)
+private static byte[] a(String str, Charset charset) {
+        if (str == null) {
+            return null;
+        }return str.getBytes(charset);}
+
+a.f
+public final class a {public static final Charset f = Charset.forName("UTF-8");}
+
+
